@@ -1,10 +1,12 @@
 {
+  "autor": "Marcus Oliveira",
+  "version": "1.0",
   "classes": {
     "folder": {
       "app": {
         "controller": {
           "Home": {
-            "validations": {
+            "formValidations": {
               "frmResgate": {
                 "fields": {
                   "resgateNome": {
