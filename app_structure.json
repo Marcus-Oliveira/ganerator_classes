@@ -4,27 +4,32 @@
   "classes": {
     "folder": {
       "app": {
-        "controller": {
-          "Home": {
-            "formValidations": {
-              "frmResgate": {
-                "fields": {
-                  "resgateNome": {
-                    "required": true,
-                    "minLength": 8,
-                    "maxLength": 50
+        "folder": {
+          "controller": {
+            "Home": {
+              "formValidations": {
+                "frmResgate": {
+                  "fields": {
+                    "resgateNome": {
+                      "required": true,
+                      "minLength": 8,
+                      "maxLength": 50
+                    }
+                  }
+                }
+              },
+              "functions": {
+                "anotherFunction": {
+                  "name": "sendMail",
+                  "parameters": {
+                    "valA": null
                   }
                 }
               }
-            },
-            "functions": {
-              "anotherFunction": {
-                "name": "sendMail",
-                "parameters": {
-                  "valA": null
-                }
-              }
             }
+          },
+          "helper": {
+            "helper": {}
           }
         }
       }
