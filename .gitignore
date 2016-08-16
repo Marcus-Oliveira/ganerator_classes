@@ -1,1 +1,8 @@
 vendor/
+node_modules
+bower_components
+.DS_Store
+nbproject
+**/Thumbs.db
+**/php.log
+**/logs.log
