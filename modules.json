@@ -1,20 +1,25 @@
 {
-    "name": "generator_classes",
-    "version": "1.0.0",
-    "keywords": ["util", "functional", "server", "client", "browser"],
-    "author": "Marcus Vinicius Dantas Oliveira",
-    "modules": {
-        "Resgate": {
-            "relResgate": {
-                "type": "datatable"
-            }
-        },
-        "FaleConosco": {
-            "relFaleConosco": {
-                "type": "datatable"
-            }
-        }
+  "name": "BO",
+  "version": "1.0.0",
+  "keywords": [
+    "asl",
+    "modules",
+    "generator",
+    "functional"
+  ],
+  "author": "Marcus Vinicius Dantas Oliveira",
+  "modules": {
+    "Resgate": {
+      "relResgate": {
+        "type": "datatable"
+      }
     },
-    "contributors": [],
-    "dependencies": {}
+    "FaleConosco": {
+      "relFaleConosco": {
+        "type": "datatable"
+      }
+    }
+  },
+  "contributors": [],
+  "dependencies": {}
 }
